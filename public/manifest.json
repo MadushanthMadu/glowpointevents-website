@@ -1,6 +1,6 @@
 {
-  "short_name": "RK Royal Events & Decor",
-  "name": "RK Royal Events & Decor",
+  "short_name": "GlowPoint Events",
+  "name": "GlowPoint Events",
   "icons": [
     {
       "src": "maskable.png",
@@ -26,6 +26,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#341010",
+  "theme_color": "#021945",
   "background_color": "#ffffff"
 }

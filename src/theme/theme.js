@@ -4,15 +4,20 @@ const lightTheme = createTheme({
   palette: {
     mode: "light",
     primary: {
-      main: "#341010",
-      contrastText: "#f8f8f6"
+      dark: "#021945",
+      main: "#021945",
+      light: "#021945",
+      contrastText: "#ffffff"
     },
     secondary: {
-      main: "#D3AF37"
+      dark: "#36454F",
+      main: "#36454F",
+      light: "#36454F",
+      contrastText: "#ffffff"
     },
     background: {
       default: "#ffffff",
-      paper: "#f8f8f6"
+      paper: "#f0f0f0"
     },
     text: {
       primary: '#341010',
@@ -21,7 +26,7 @@ const lightTheme = createTheme({
   },
   typography: {
     fontFamily: [
-      'Poppins'
+      'Playfair Display', 'Inter'
     ].join(','),
   }
 });

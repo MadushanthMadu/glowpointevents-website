@@ -1,18 +1,18 @@
 import { Helmet } from "react-helmet";
-import HomeLayout from '../sections/home/homeLayout';
+import PortfolioLayout from '../sections/portfolio/portfolioLayout';
 
-const HomePage = () => {
+const PortfolioPage = () => {
     return (
         <>
             <Helmet>
-                <title>GlowPoint Events</title>
+                <title>Portfolio</title>
                 <meta name="description" content="Description here..." />
                 <meta name="keywords" content="Keywords separated with comma here..." />
             </Helmet>
 
-            <HomeLayout />
+            <PortfolioLayout />
         </>
     );
 }
 
-export default HomePage;
+export default PortfolioPage;
