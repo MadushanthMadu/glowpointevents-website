@@ -1,7 +1,11 @@
+import { useTranslation } from "react-i18next";
+
 const NotFoundLayout = () => {
+    const {t} = useTranslation();
+
     return (
         <>
-            <h1>Not Found Page</h1>
+            <h1>{t('notFound.description')}</h1>
         </>
     );
 }

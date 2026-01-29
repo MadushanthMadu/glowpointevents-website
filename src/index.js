@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './i18/config';
 
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 
@@ -19,4 +20,5 @@ root.render(
 reportWebVitals();
 serviceWorkerRegistration.register();
 
-console.log = () => {};
+// Remove console logs in live
+if(process.env.REACT_APP_ENV === "Live") console.log = () => {};
