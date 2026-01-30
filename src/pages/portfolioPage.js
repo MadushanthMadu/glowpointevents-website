@@ -5,9 +5,9 @@ const PortfolioPage = () => {
     return (
         <>
             <Helmet>
-                <title>Portfolio</title>
-                <meta name="description" content="Description here..." />
-                <meta name="keywords" content="Keywords separated with comma here..." />
+                <title>Our Event Portfolio | Glowpoint Events Australia</title>
+                <meta name="description" content="Explore Glowpoint Events’ portfolio of beautifully styled weddings, birthdays, and cultural celebrations delivered with elegance and creativity across Australia." />
+                <meta name="keywords" content="Glowpoint Events portfolio,event gallery Australia,wedding portfolio,event styling showcase,luxury events Australia" />
             </Helmet>
 
             <PortfolioLayout />

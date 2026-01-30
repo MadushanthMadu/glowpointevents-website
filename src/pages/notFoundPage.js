@@ -5,7 +5,7 @@ const NotFoundPage = () => {
     return (
         <>
             <Helmet>
-                <title>Not Found</title>
+                <title>Page Not Found | Glowpoint Events Australia</title>
             </Helmet>
 
             <NotFoundLayout />

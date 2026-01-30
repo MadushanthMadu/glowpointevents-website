@@ -5,9 +5,9 @@ const HomePage = () => {
     return (
         <>
             <Helmet>
-                <title>Glowpoint Events</title>
-                <meta name="description" content="Description here..." />
-                <meta name="keywords" content="Keywords separated with comma here..." />
+                <title>Luxury Event Management in Australia | Glowpoint Events</title>
+                <meta name="description" content="Glowpoint Events delivers premium weddings and celebrations across Australia, blending tradition and modern elegance to create unforgettable, beautifully styled events." />
+                <meta name="keywords" content="Glowpoint Events,luxury event planner Australia,wedding planner Australia,premium event management,engagement parties,birthday events,baby shower planner,cultural celebrations Australia" />
             </Helmet>
 
             <HomeLayout />
