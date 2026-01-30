@@ -5,7 +5,7 @@ const HomePage = () => {
     return (
         <>
             <Helmet>
-                <title>GlowPoint Events</title>
+                <title>Glowpoint Events</title>
                 <meta name="description" content="Description here..." />
                 <meta name="keywords" content="Keywords separated with comma here..." />
             </Helmet>
