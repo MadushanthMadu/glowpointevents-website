@@ -1,0 +1,22 @@
+{
+  "projects": {
+    "staging": "nishani-canlanka-holdings-dev",
+    "production": "glowpointevents-web"
+  },
+  "targets": {
+    "nishani-canlanka-holdings-dev": {
+      "hosting": {
+        "target": [
+          "stag-glowpointevents"
+        ]
+      }
+    },
+    "glowpointevents-web": {
+      "hosting": {
+        "target": [
+          "glowpointevents-web"
+        ]
+      }
+    }
+  }
+}

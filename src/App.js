@@ -5,6 +5,7 @@ import theme from "./theme/theme";
 import { useEffect } from "react";
 import AOS from 'aos';
 import { SnackbarProvider } from 'notistack';
+import { CssBaseline } from "@mui/material";
 
 function App() {
   // Animation configurations
@@ -28,6 +29,7 @@ function App() {
         }}
       >
         <ThemeProvider theme={theme}>
+          <CssBaseline />
           <Router />
         </ThemeProvider>
       </SnackbarProvider>
