@@ -1,7 +1,9 @@
+import NavigationBar from "../navigation/navigationBar";
+
 const AboutUsLayout = () => {
     return (
         <>
-            <h1>About Us Page</h1>
+            <NavigationBar />
         </>
     );
 }

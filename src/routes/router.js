@@ -18,14 +18,14 @@ const Router = () => {
             <Route path="/" element={<Layout />}>
                 <Route index element={<HomePage />} />
 
-                {/* <Route path="about-us" element={<AboutUsPage />} />
+                <Route path="about-us" element={<AboutUsPage />} />
                 <Route path="portfolio" element={<PortfolioPage />} />
                 <Route path="contact-us" element={<ContactUsPage />} />
 
                 <Route path="privacy-policy" element={<PrivacyPolicyPage />} />
                 <Route path="terms-and-conditions" element={<TermsAndConditionsPage />} />
 
-                <Route path="*" element={<NotFoundPage />} /> */}
+                <Route path="*" element={<NotFoundPage />} />
             </Route>
         </Routes>
     );

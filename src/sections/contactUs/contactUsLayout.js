@@ -1,7 +1,9 @@
+import NavigationBar from "../navigation/navigationBar";
+
 const ContactUsLayout = () => {
     return (
         <>
-            <h1>Contact Us Page</h1>
+            <NavigationBar />
         </>
     );
 }

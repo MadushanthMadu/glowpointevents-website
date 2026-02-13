@@ -1,5 +1,43 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+
+.hide-scrollbar {
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+
+/* Extra small and Small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .main-section-px {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+}
+
+/* Medium devices (landscape tablets, 900px and up) */
+@media only screen and (min-width: 900px) {
+  .main-section-px {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .main-section-px {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
 }
