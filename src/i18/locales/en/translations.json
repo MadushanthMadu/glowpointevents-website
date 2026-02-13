@@ -5,6 +5,13 @@
         "portfolio": "Our Works",
         "contact": "Make an Enquiry"
     },
+    "hero": {
+        "title": "Premium Event Management Across Australia",
+        "description": "Glowpoint Events specialises in refined, creatively styled celebrations that reflect elegance, innovation, and attention to detail, ensuring your special occasion is flawlessly delivered.",
+        "events": "Events Delivered",
+        "satisfaction": "Client Satisfaction",
+        "rating": "Client Rating"
+    },
     "notFound": {
         "title": "",
         "description": "The page you are looking for may have been moved, deleted, or be temporarily unavailable. Please check the URL or return to the homepage.",
