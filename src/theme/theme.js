@@ -25,9 +25,10 @@ const lightTheme = createTheme({
     }
   },
   typography: {
-    fontFamily: [
-      'Playfair Display','Inter'
-    ].join(',')
+    fontFamily: {
+      primary: 'Playfair Display',
+      secondary: 'Inter'
+    }
   }
 });
 
