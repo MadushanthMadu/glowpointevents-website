@@ -1,0 +1,42 @@
+[
+    {
+        "img": "https://picsum.photos/id/308/1920/1080",
+        "latest": true
+    },
+    {
+        "img": "https://picsum.photos/id/408/1920/1080",
+        "latest": true
+    },
+    {
+        "img": "https://picsum.photos/id/508/1920/1080",
+        "latest": false
+    },
+    {
+        "img": "https://picsum.photos/id/608/1920/1080",
+        "latest": false
+    },
+    {
+        "img": "https://picsum.photos/id/708/1920/1080",
+        "latest": false
+    },
+    {
+        "img": "https://picsum.photos/id/808/1920/1080",
+        "latest": true
+    },
+    {
+        "img": "https://picsum.photos/id/308/1920/1080",
+        "latest": false
+    },
+    {
+        "img": "https://picsum.photos/id/908/1920/1080",
+        "latest": true
+    },
+    {
+        "img": "https://picsum.photos/id/909/1920/1080",
+        "latest": false
+    },
+    {
+        "img": "https://picsum.photos/id/910/1920/1080",
+        "latest": true
+    }
+]

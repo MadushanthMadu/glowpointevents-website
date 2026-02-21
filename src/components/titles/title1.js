@@ -8,6 +8,7 @@ const getTitle = (title, highLightedTextPosition) => {
 
 const Title1 = ({
     title,
+    fullWidth=false,
     highLightedTextPosition=0
 }) => {
     return (
@@ -17,7 +18,7 @@ const Title1 = ({
                 justifyContent={{xs: 'center', md: 'left'}}
                 alignItems='center'
                 sx={{
-                    width: {xs: '100%', md: '50%', lg: '75%'},
+                    width: {xs: '100%', md: fullWidth ? '100%' : '50%', lg: fullWidth ? '100%' : '75%'},
                     flexWrap: 'wrap',
                     pb: {xs: '16px', md: '32px'}
                 }}
