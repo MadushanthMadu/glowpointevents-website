@@ -20,6 +20,28 @@
         ],
         "action": "Start Planning With Us"
     },
+    "services": {
+        "title": "Why Choose Glowpoint Events?",
+        "description": "At Glowpoint Events, we go beyond event management. We create meaningful experiences designed with intention, elegance, and precision. Our personalised approach ensures every celebration reflects your story while being delivered seamlessly and beautifully across Australia.",
+        "services": [
+            {
+                "title": "Personalised Event Experiences",
+                "description": "Every celebration is thoughtfully tailored to reflect your vision, culture, and style, ensuring your event feels truly unique."
+            },
+            {
+                "title": "Seamless Planning & Coordination",
+                "description": "From concept to completion, we manage every detail with professionalism and care, allowing you to enjoy a stress-free experience."
+            },
+            {
+                "title": "Elegant & Innovative Design",
+                "description": "We blend contemporary trends with timeless aesthetics to create sophisticated, visually stunning celebrations."
+            },
+            {
+                "title": "Cultural Sensitivity & Respect",
+                "description": "We honour traditions and meaningful customs while incorporating modern elements, ensuring every event feels authentic and heartfelt."
+            }
+        ]
+    },
     "notFound": {
         "title": "",
         "description": "The page you are looking for may have been moved, deleted, or be temporarily unavailable. Please check the URL or return to the homepage.",
