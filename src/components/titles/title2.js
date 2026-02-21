@@ -38,6 +38,8 @@ const Title2 = ({
                         letterSpacing='2%'
                         color={theme.palette.text.primary}
                         textAlign={{xs: 'center', md: 'right'}}
+                        data-aos="fade-up"
+                        data-aos-delay="100"
                     >
                         {description}
                     </Typography>

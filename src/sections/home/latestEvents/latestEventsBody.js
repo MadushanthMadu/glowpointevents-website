@@ -112,6 +112,7 @@ const EventImage = ({
                     px: {xs: '5px', md: '10px', lg: '30px'},
                     cursor: 'pointer'
                 }}
+                data-aos="fade"
             >
                 <img 
                     src={img}

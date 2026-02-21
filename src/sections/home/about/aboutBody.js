@@ -42,6 +42,7 @@ const AboutBody = () => {
                                     letterSpacing='2%'
                                     color={theme.palette.text.primary}
                                     textAlign={{xs: 'center', md: 'justify'}}
+                                    data-aos="fade"
                                 >
                                     {des}
                                 </Typography>
@@ -52,6 +53,8 @@ const AboutBody = () => {
                             sx={{
                                 pt: {xs: '15px', md: '30px'}
                             }}
+                            data-aos="fade"
+                            data-aos-delay="100"
                         >
                             <CustomButton 
                                 label={t(`${aboutLocales}.action`)}
@@ -73,6 +76,8 @@ const AboutBody = () => {
                         sx={{
                             width: '100%'
                         }}
+                        data-aos="zoom-in"
+                        data-aos-delay="150"
                     >
                         <img 
                             src="/images/About/about.jpg" 

@@ -4,6 +4,7 @@ import { BrowserRouter } from 'react-router-dom';
 import theme from "./theme/theme";
 import { useEffect } from "react";
 import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { SnackbarProvider } from 'notistack';
 import { CssBaseline } from "@mui/material";
 
@@ -11,7 +12,7 @@ function App() {
   // Animation configurations
   useEffect(() => {
     AOS.init({ 
-      duration: 500,
+      duration: 1000,
       easing: 'ease',
       once: true
     });

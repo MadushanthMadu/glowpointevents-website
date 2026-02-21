@@ -23,6 +23,7 @@ const Title1 = ({
                     pb: {xs: '16px', md: '32px'}
                 }}
                 gap={{xs: '8px', md: '12px'}}
+                data-aos="fade-up"
             >
                 {
                     highLightedTextPosition > 0

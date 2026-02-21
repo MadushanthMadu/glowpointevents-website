@@ -38,6 +38,7 @@ const HeroBody = () => {
                         letterSpacing='-1%'
                         color={theme.palette.text.secondary}
                         pb='16px'
+                        data-aos="fade"
                     >
                         {t(`${heroLocales}.title`)}
                     </Typography>
@@ -50,6 +51,8 @@ const HeroBody = () => {
                         lineHeight='150%'
                         letterSpacing='2%'
                         color={theme.palette.text.secondary}
+                        data-aos="fade"
+                        data-aos-delay="100"
                     >
                         {t(`${heroLocales}.description`)}
                     </Typography>
@@ -60,6 +63,8 @@ const HeroBody = () => {
                         alignItems='center'
                         pt={{xs: '20px', md: '40px'}}
                         spacing='10px'
+                        data-aos="fade"
+                        data-aos-delay="200"
                     >
                         <Stats 
                             label={t(`${heroLocales}.events`)}

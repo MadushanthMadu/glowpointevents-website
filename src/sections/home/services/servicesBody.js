@@ -45,6 +45,7 @@ const ServicesBody = () => {
                                     width: '100%',
                                     flexGrow: 1
                                 }}
+                                data-aos="zoom-in"
                             >
                                 <img 
                                     src="/images/Services/services.jpg" 
@@ -66,6 +67,8 @@ const ServicesBody = () => {
                                 letterSpacing='2%'
                                 color={theme.palette.text.primary}
                                 textAlign={{xs: 'center', md: 'left'}}
+                                data-aos="fade"
+                                data-aos-delay="100"
                             >
                                 {t(`${servicesLocales}.description`)}
                             </Typography>
@@ -84,6 +87,8 @@ const ServicesBody = () => {
                                 key={index}
                                 size={{xs: 12, md: 6}}
                                 sx={{ display: 'flex' }}
+                                data-aos="fade"
+                                data-aos-delay="100"
                             >
                                 <ServiceDetails 
                                     icon={iconsList[index]}
