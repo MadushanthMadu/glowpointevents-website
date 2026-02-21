@@ -25,6 +25,8 @@ const getImagesList = (list) => {
         }
     }
 
+    imageList.sort();
+
     return imageList;
 }
 
@@ -79,6 +81,7 @@ const LatestEventsBody = () => {
                                 autoplay={false}
                                 slidesToShow={1}
                                 centerMode={false}
+                                showArrows
                             />
                         </Box>
                     </Stack>

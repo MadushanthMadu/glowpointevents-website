@@ -1,0 +1,62 @@
+[
+    {
+        "eventType": "Wedding",
+        "review": "Glowpoint Events made our wedding day absolutely flawless. Every detail was beautifully styled, and the team handled everything with such professionalism and care. We felt completely at ease knowing we were in expert hands.",
+        "rating": "5",
+        "client": "https://picsum.photos/id/64/512/512"
+    },
+    {
+        "eventType": "Engagement Party",
+        "review": "From the initial consultation to the final toast, Glowpoint delivered a celebration that perfectly reflected our personalities. The blend of tradition and modern styling was simply stunning.",
+        "rating": "4.5",
+        "client": ""
+    },
+    {
+        "eventType": "Baby Shower",
+        "review": "Our baby shower was elegant, warm, and beautifully organised. The attention to detail and thoughtful touches made the day feel incredibly special for our family.",
+        "rating": "5",
+        "client": ""
+    },
+    {
+        "eventType": "50th Birthday Celebration",
+        "review": "Glowpoint Events transformed my milestone birthday into a sophisticated and memorable evening. The styling, coordination, and seamless execution exceeded all expectations.",
+        "rating": "5",
+        "client": "https://picsum.photos/id/64/512/512"
+    },
+    {
+        "eventType": "Cultural Wedding Ceremony",
+        "review": "They honoured our cultural traditions with such respect while incorporating modern elegance. Our families were deeply impressed, and the day felt truly meaningful.",
+        "rating": "4.5",
+        "client": "https://picsum.photos/id/64/512/512"
+    },
+    {
+        "eventType": "Bridal Shower",
+        "review": "Everything was beautifully curated and thoughtfully planned. The décor was refined, and the atmosphere felt warm and intimate — exactly what we envisioned.",
+        "rating": "5",
+        "client": "https://picsum.photos/id/64/512/512"
+    },
+    {
+        "eventType": "Corporate Celebration Event",
+        "review": "Professional, organised, and creative — Glowpoint delivered a polished event that represented our brand perfectly. We received fantastic feedback from our guests.",
+        "rating": "5",
+        "client": "https://picsum.photos/id/64/512/512"
+    },
+    {
+        "eventType": "First Birthday Celebration",
+        "review": "They created a joyful and elegant celebration for our little one’s first birthday. Every detail was carefully managed, allowing us to simply enjoy the moment.",
+        "rating": "5",
+        "client": ""
+    },
+    {
+        "eventType": "Anniversary Celebration",
+        "review": "Glowpoint captured the essence of our journey together and turned it into a beautiful celebration surrounded by family and friends. It was heartfelt and perfectly executed.",
+        "rating": "5",
+        "client": "https://picsum.photos/id/64/512/512"
+    },
+    {
+        "eventType": "Puberty Ceremony",
+        "review": "The team handled this important cultural milestone with sensitivity, elegance, and respect. The event was meaningful, well-coordinated, and deeply appreciated by our entire family.",
+        "rating": "5",
+        "client": ""
+    }
+]

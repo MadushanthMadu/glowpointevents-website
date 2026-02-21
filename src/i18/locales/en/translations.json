@@ -46,6 +46,10 @@
         "title": "Recent Moments, We’ve Brought to Life",
         "description": "From intimate gatherings to grand celebrations, discover beautifully curated events that capture joy, culture, and unforgettable memories."
     },
+    "testimonials": {
+        "title": "Trusted by Families Across Australia",
+        "action": "Rate Your Experience"
+    },
     "notFound": {
         "title": "",
         "description": "The page you are looking for may have been moved, deleted, or be temporarily unavailable. Please check the URL or return to the homepage.",

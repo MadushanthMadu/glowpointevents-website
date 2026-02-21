@@ -9,13 +9,14 @@ const getTitle = (title, highLightedTextPosition) => {
 const Title1 = ({
     title,
     fullWidth=false,
-    highLightedTextPosition=0
+    highLightedTextPosition=0,
+    alignment="left"
 }) => {
     return (
         <>
             <Stack
                 direction='row'
-                justifyContent={{xs: 'center', md: 'left'}}
+                justifyContent={{xs: 'center', md: alignment}}
                 alignItems='center'
                 sx={{
                     width: {xs: '100%', md: fullWidth ? '100%' : '50%', lg: fullWidth ? '100%' : '75%'},

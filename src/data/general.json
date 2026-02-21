@@ -3,5 +3,8 @@
         "totalEvents": 50,
         "satisfactionRate": 100,
         "rating": 5
+    },
+    "google": {
+        "rating": "https://g.page/r/CfYKfEvj0-sdEBM/review"
     }
 }
