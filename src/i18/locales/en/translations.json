@@ -12,6 +12,14 @@
         "satisfaction": "Client Satisfaction",
         "rating": "Client Rating"
     },
+    "about": {
+        "description": [
+            "Glowpoint Events is an Australian event management company dedicated to creating elegant, meaningful, and beautifully curated celebrations. We specialise in weddings, engagements, birthdays, baby showers, and culturally significant milestones, thoughtfully blending traditional values with contemporary design.",
+            "With a strong focus on creativity, precision, and personalised service, we work closely with couples and families to bring their vision to life. Every detail is carefully considered to ensure your celebration feels seamless, sophisticated, and uniquely yours.",
+            "At Glowpoint Events, we believe every occasion deserves to be unforgettable not only for how it looks, but for how it feels."
+        ],
+        "action": "Start Planning With Us"
+    },
     "notFound": {
         "title": "",
         "description": "The page you are looking for may have been moved, deleted, or be temporarily unavailable. Please check the URL or return to the homepage.",

@@ -27,11 +27,11 @@ const HeroBody = () => {
                 pb={{xs: '40px', md: '60px'}}
             >
                 <Grid
-                    size={{xs: 12, md: 12, lg: 8}}
+                    size={{xs: 12, md: 12, lg: 9}}
                 >
                     {/* Title */}
                     <Typography
-                        fontWeight={900}
+                        fontWeight={600}
                         fontFamily='Inter'
                         fontSize={{xs: '32px', md: '42px', lg: '72px'}}
                         lineHeight='100%'
@@ -44,7 +44,7 @@ const HeroBody = () => {
 
                     {/* Description */}
                     <Typography
-                        fontWeight={400}
+                        fontWeight={300}
                         fontFamily='Inter'
                         fontSize={{xs: '14px', md: '16px', lg: '24px'}}
                         lineHeight='150%'
@@ -117,7 +117,7 @@ const Stats = ({
             >
                 {/* Value */}
                 <Typography
-                    fontWeight={700}
+                    fontWeight={600}
                     fontFamily='Inter'
                     fontSize={{xs: '16px', md: '24px', lg: '32px'}}
                     lineHeight='100%'
@@ -129,7 +129,7 @@ const Stats = ({
 
                 {/* Label */}
                 <Typography
-                    fontWeight={400}
+                    fontWeight={300}
                     fontFamily='Inter'
                     fontSize={{xs: '12px', md: '14px'}}
                     lineHeight='120%'

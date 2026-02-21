@@ -24,6 +24,11 @@ body {
     padding-left: 18px;
     padding-right: 18px;
   }
+
+  .main-section-py {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 }
 
 /* Medium devices (landscape tablets, 900px and up) */
@@ -32,6 +37,11 @@ body {
     padding-left: 70px;
     padding-right: 70px;
   }
+
+  .main-section-py {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -39,5 +49,10 @@ body {
   .main-section-px {
     padding-left: 120px;
     padding-right: 120px;
+  }
+
+  .main-section-py {
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 }
