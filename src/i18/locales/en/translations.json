@@ -62,7 +62,6 @@
         "terms": "Terms and Conditions"
     },
     "notFound": {
-        "title": "",
         "description": "The page you are looking for may have been moved, deleted, or be temporarily unavailable. Please check the URL or return to the homepage.",
         "home": "Go Home"
     }

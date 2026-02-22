@@ -4,7 +4,6 @@ import { Box, Stack, Typography, useTheme } from "@mui/material";
 import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
-import Title1 from '../../components/titles/title1';
 import generalData from '../../data/general.json';
 
 const PoliciesLayout = ({
