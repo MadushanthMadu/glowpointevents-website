@@ -1,3 +1,4 @@
+import CustomFloatingButton from "../../components/buttons/customFloatingButton";
 import FooterLayout from "../footer/footerLayout";
 import NavigationBar from "../navigation/navigationBar";
 import AboutLayout from "./about/aboutLayout";
@@ -22,6 +23,8 @@ const HomeLayout = () => {
             <TestimonialsLayout />
 
             <FooterLayout />
+
+            <CustomFloatingButton />
         </>
     );
 }

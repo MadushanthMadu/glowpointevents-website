@@ -27,6 +27,7 @@ const CustomButton = ({
                     '&: hover': {
                         transform: 'scale(0.95)'
                     },
+                    py: '12px',
                     ...sx
                 }}
             >

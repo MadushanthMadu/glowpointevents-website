@@ -1,4 +1,5 @@
 import { Stack, Typography, useTheme } from "@mui/material";
+import ShinyTextEffect from '../effects/shinyTextEffect';
 
 const getTitle = (title, highLightedTextPosition) => {
     if(highLightedTextPosition === 0) return [...title];
@@ -10,7 +11,8 @@ const Title1 = ({
     title,
     fullWidth=false,
     highLightedTextPosition=0,
-    alignment="left"
+    alignment="left",
+    showShinyEffect=true
 }) => {
     return (
         <>
@@ -34,11 +36,13 @@ const Title1 = ({
                             key={index}
                             title={wording}
                             needHighlight={index + 1 === highLightedTextPosition}
+                            showShinyEffect
                         />
                     })
                     :
                     <TitleText 
                         title={title}
+                        showShinyEffect={false}
                     />
                 }
             </Stack>
@@ -50,7 +54,8 @@ export default Title1;
 
 const TitleText = ({
     title,
-    needHighlight=false
+    needHighlight=false,
+    showShinyEffect=true
 }) => {
     const theme = useTheme();
 
@@ -65,7 +70,18 @@ const TitleText = ({
                 color={needHighlight ? theme.palette.primary.light : theme.palette.text.primary}
                 textAlign={{xs: 'center', md: 'left'}}
             >
-                {title}
+                {
+                    showShinyEffect
+                    ?
+                    <ShinyTextEffect 
+                        text={title}
+                        color={needHighlight ? theme.palette.primary.light : theme.palette.text.primary}
+                        speed={4}
+                        shineColor={needHighlight ? theme.palette.background.default : theme.palette.text.primary}
+                    />
+                    :
+                    {title}
+                }
             </Typography>
         </>
     );

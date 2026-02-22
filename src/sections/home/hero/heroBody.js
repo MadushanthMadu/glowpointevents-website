@@ -8,6 +8,8 @@ import {
 import { useTranslation } from "react-i18next";
 import data from '../../../data/general.json';
 import StarIcon from '@mui/icons-material/Star';
+import CountUpEffect from "../../../components/effects/countUpEffect";
+import ShinyTextEffect from "../../../components/effects/shinyTextEffect";
 
 const heroLocales = "hero";
 
@@ -32,7 +34,6 @@ const HeroBody = () => {
                     {/* Title */}
                     <Typography
                         fontWeight={600}
-                        fontFamily='Inter'
                         fontSize={{xs: '32px', md: '42px', lg: '72px'}}
                         lineHeight='100%'
                         letterSpacing='-1%'
@@ -40,7 +41,11 @@ const HeroBody = () => {
                         pb='16px'
                         data-aos="fade"
                     >
-                        {t(`${heroLocales}.title`)}
+                        <ShinyTextEffect 
+                            text={t(`${heroLocales}.title`)}
+                            color={theme.palette.text.secondary}
+                            shineColor={alpha(theme.palette.secondary.light, 0)}
+                        />
                     </Typography>
 
                     {/* Description */}
@@ -69,25 +74,25 @@ const HeroBody = () => {
                         <Stats 
                             label={t(`${heroLocales}.events`)}
                             value={`${data?.stats?.totalEvents}+`}
+                            suffix='+'
                         />
 
                         <Stats 
                             label={t(`${heroLocales}.satisfaction`)}
                             value={`${data?.stats?.satisfactionRate}%`}
+                            suffix='%'
                         />
 
                         <Stats 
                             label={t(`${heroLocales}.rating`)}
-                            value={
-                                <>
-                                    {data?.stats?.rating}
-                                    <StarIcon 
-                                        sx={{
-                                            transform: 'translateY(2px)',
-                                            fontSize: {xs: "15px", md: "20px", lg: "30px"}
-                                        }}
-                                    />
-                                </>
+                            value={data?.stats?.rating}
+                            suffix={
+                                <StarIcon 
+                                    sx={{
+                                        transform: 'translateY(2px)',
+                                        fontSize: {xs: "15px", md: "20px", lg: "30px"}
+                                    }}
+                                />
                             }
                         />
                     </Stack>
@@ -101,7 +106,8 @@ export default HeroBody;
 
 const Stats = ({
     label,
-    value
+    value,
+    suffix
 }) => {
     const theme = useTheme();
 
@@ -129,7 +135,8 @@ const Stats = ({
                     letterSpacing='-1%'
                     color={theme.palette.text.secondary}
                 >
-                    {value}
+                    <CountUpEffect from={0} to={value}/>
+                    {suffix}
                 </Typography>
 
                 {/* Label */}

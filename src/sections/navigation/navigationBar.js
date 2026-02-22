@@ -8,7 +8,7 @@ import Button from '@mui/material/Button';
 import { useCallback, useEffect, useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { alpha, Drawer, Stack, useScrollTrigger, useTheme } from '@mui/material';
-import CustomButton from '../../components/customButton';
+import CustomButton from '../../components/buttons/customButton';
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 import { useTranslation } from 'react-i18next';
 
@@ -82,7 +82,7 @@ function NavigationBar() {
             elevation={0}
             sx={{
                 backgroundColor: trigger ? theme.palette.background.default : 'transparent',
-                py: {xs: '12px', md: trigger ? '5px' : '15px'}
+                py: {xs: '12px', md: '7.5px' }
             }}
             className='main-section-px'
         >
@@ -104,6 +104,18 @@ function NavigationBar() {
                             onClick={handleOpenNavMenu}
                             color="inherit"
                         >
+                            <Box
+                                sx={{
+                                    width: '50px',
+                                }}
+                            >
+                                <img 
+                                    src={trigger ? '/images/Logo/GE-T-G.png' : '/images/Logo/GE-W-G.png'}
+                                    alt='Logo' 
+                                    width='100%' 
+                                />
+                            </Box>
+
                             <MenuIcon sx={{color: trigger ? theme.palette.text.primary : theme.palette.background.default}}/>
                         </IconButton>
 
@@ -228,7 +240,8 @@ function NavigationBar() {
                             sx={{
                                 backgroundColor: trigger ? theme.palette.primary.main : theme.palette.background.default,
                                 color: trigger ? theme.palette.primary.contrastText : theme.palette.primary.main,
-                                fontWeight: 600
+                                fontWeight: 600,
+                                py: '8px'
                             }}
                         />
                     </Box>

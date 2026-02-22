@@ -1,6 +1,6 @@
 import { Box, Grid, Stack, Typography, useTheme } from "@mui/material";
 import { useTranslation } from "react-i18next";
-import CustomButton from '../../../components/customButton';
+import CustomButton from '../../../components/buttons/customButton';
 import { useNavigate } from "react-router-dom";
 import CelebrationIcon from '@mui/icons-material/Celebration';
 
