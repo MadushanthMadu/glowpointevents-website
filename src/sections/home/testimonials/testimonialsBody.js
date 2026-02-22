@@ -29,6 +29,7 @@ const TestimonialsBody = () => {
                 slidesToShow={isSmDevice ? 1 : isMdDevice ? 2 : 4}
                 centerMode={false}
                 autoplaySpeed={3000}
+                dots={false}
             />
         </>
     );
@@ -54,6 +55,7 @@ const TestimonialCard = ({
                     mx: '10px',
                     mb: '10px'
                 }}
+                data-aos="fade"
             >
                 <Stack
                     direction='column'

@@ -139,7 +139,7 @@ const ServiceDetails = ({
                     {/* Description */}
                     <Typography
                         fontWeight={400}
-                        fontSize={{xs: '12px', lg: '14px'}}
+                        fontSize={{xs: '14px', md: '16px', lg: '18px'}}
                         lineHeight='150%'
                         letterSpacing='2%'
                         color={theme.palette.text.primary}

@@ -6,5 +6,22 @@
     },
     "google": {
         "rating": "https://g.page/r/CfYKfEvj0-sdEBM/review"
+    },
+    "social": {
+        "email": "mailto:hello@glowpointevents.com",
+        "whatsapp": "https://wa.link/fb3rzh",
+        "instagram": "https://www.instagram.com/glowpointevents",
+        "facebook": "https://facebook.com/glowpointevents",
+        "tiktok": "",
+        "pinterest": "",
+        "googleBusiness": ""
+    },
+    "location": {
+        "googleMap": "https://maps.app.goo.gl/wZukoWG36eSkAr2B9",
+        "address": [
+            "12 Turner St,",
+            "Berwick VIC 3806,",
+            "Australia"
+        ]
     }
 }

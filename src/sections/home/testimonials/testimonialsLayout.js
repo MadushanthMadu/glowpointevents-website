@@ -31,7 +31,8 @@ const TestimonialsLayout = () => {
                 <Stack
                     direction='row'
                     justifyContent='center'
-                    pt={{xs: '50px', md: '75px'}}
+                    pt={{xs: '0px', md: '25px'}}
+                    data-aos="fade"
                 >
                     <Link
                         to={generalData.google.rating}

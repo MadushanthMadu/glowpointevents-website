@@ -1,42 +1,107 @@
 [
     {
-        "img": "https://picsum.photos/id/308/1920/1080",
-        "latest": true
+        "category": "Weddings & Pre-Wedding",
+        "subcategories": [
+            "Wedding Ceremony",
+            "Wedding Reception",
+            "Destination Wedding",
+            "Engagement Party",
+            "Bridal Shower",
+            "Hen’s Party",
+            "Bucks Night",
+            "Wedding Anniversary",
+            "Vow Renewal",
+            "Registry Wedding Celebration",
+            "Cultural / Traditional Wedding Ceremony"
+        ],
+        "gallery": [
+            { "img": "https://picsum.photos/id/108/1920/1080", "latest": true },
+            { "img": "https://picsum.photos/id/452/1920/1080", "latest": false },
+            { "img": "https://picsum.photos/id/200/1920/1080", "latest": true }
+        ]
     },
     {
-        "img": "https://picsum.photos/id/408/1920/1080",
-        "latest": true
+        "category": "Family & Milestone",
+        "subcategories": [
+            "Baby Shower",
+            "Gender Reveal Party",
+            "Naming Ceremony",
+            "Christening / Baptism",
+            "First Birthday Celebration",
+            "Milestone Birthday",
+            "Puberty Ceremony",
+            "Graduation Party",
+            "Housewarming Celebration",
+            "Retirement Celebration"
+        ],
+        "gallery": [
+            { "img": "https://picsum.photos/id/219/1920/1080", "latest": false },
+            { "img": "https://picsum.photos/id/634/1920/1080", "latest": true }
+        ]
     },
     {
-        "img": "https://picsum.photos/id/508/1920/1080",
-        "latest": false
+        "category": "Social & Private",
+        "subcategories": [
+            "Birthday Parties",
+            "Surprise Parties",
+            "Themed Parties",
+            "Cocktail Parties",
+            "Dinner Parties",
+            "Garden Parties",
+            "Private Celebrations",
+            "Anniversary Dinners",
+            "Proposal Setups"
+        ],
+        "gallery": [
+            { "img": "https://picsum.photos/id/345/1920/1080", "latest": false },
+            { "img": "https://picsum.photos/id/589/1920/1080", "latest": false },
+            { "img": "https://picsum.photos/id/902/1920/1080", "latest": true },
+            { "img": "https://picsum.photos/id/156/1920/1080", "latest": false }
+        ]
     },
     {
-        "img": "https://picsum.photos/id/608/1920/1080",
-        "latest": false
+        "category": "Cultural & Religious",
+        "subcategories": [
+            "Traditional Cultural Ceremonies",
+            "Religious Celebrations",
+            "Festive Gatherings",
+            "Community Cultural Events",
+            "Memorial Gatherings"
+        ],
+        "gallery": [
+            { "img": "https://picsum.photos/id/478/1920/1080", "latest": true }
+        ]
     },
     {
-        "img": "https://picsum.photos/id/708/1920/1080",
-        "latest": false
+        "category": "Corporate & Community",
+        "subcategories": [
+            "Corporate Dinners",
+            "Award Nights",
+            "Product Launches",
+            "Brand Activations",
+            "Networking Events",
+            "Charity Galas",
+            "Fundraising Events",
+            "Business Anniversaries",
+            "Team Building Events"
+        ],
+        "gallery": [
+            { "img": "https://picsum.photos/id/812/1920/1080", "latest": false },
+            { "img": "https://picsum.photos/id/267/1920/1080", "latest": true },
+            { "img": "https://picsum.photos/id/699/1920/1080", "latest": false }
+        ]
     },
     {
-        "img": "https://picsum.photos/id/808/1920/1080",
-        "latest": true
-    },
-    {
-        "img": "https://picsum.photos/id/308/1920/1080",
-        "latest": false
-    },
-    {
-        "img": "https://picsum.photos/id/908/1920/1080",
-        "latest": true
-    },
-    {
-        "img": "https://picsum.photos/id/909/1920/1080",
-        "latest": false
-    },
-    {
-        "img": "https://picsum.photos/id/910/1920/1080",
-        "latest": true
+        "category": "Special Occasion Styling & Setups",
+        "subcategories": [
+            "Luxury Picnic Setups",
+            "Proposal Styling",
+            "Event Décor & Styling Services",
+            "Custom Themed Event Design"
+        ],
+        "gallery": [
+            { "img": "https://picsum.photos/id/533/1920/1080", "latest": true },
+            { "img": "https://picsum.photos/id/741/1920/1080", "latest": false }
+        ]
     }
 ]

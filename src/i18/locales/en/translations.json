@@ -1,4 +1,5 @@
 {
+    "company": "Glowpoint Events",
     "navigation": {
         "home": "Home",
         "about": "Our Story",
@@ -49,6 +50,16 @@
     "testimonials": {
         "title": "Trusted by Families Across Australia",
         "action": "Rate Your Experience"
+    },
+    "footer": {
+        "description": "Glowpoint Events is an Australian event management company specialising in elegant weddings and meaningful celebrations. We blend tradition with modern sophistication to deliver beautifully curated events that leave lasting impressions.",
+        "quickLinks": "Quick Links",
+        "events": "Our Celebrations",
+        "location": "Find Us",
+        "socialMedia": "Follow Us",
+        "contactUs": "Contact Us",
+        "privacyPolicy": "Privacy Policy",
+        "terms": "Terms and Conditions"
     },
     "notFound": {
         "title": "",

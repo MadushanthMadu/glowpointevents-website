@@ -11,17 +11,64 @@ const latestEventsLocales = "latestEvents";
 const getImagesList = (list) => {
     const imageList = [];
 
-    let left = 0, right = list.length - 1;
+    let outerLeft = 0, outerRight = list.length - 1;
 
-    while(left < right){
-        if(list[left].latest) imageList.push(<EventImage img={list[left].img} />);
-        if(list[right].latest) imageList.push(<EventImage img={list[right].img} />);
+    while(outerLeft < outerRight){
+        // Left Side
+        let gallery = list[outerLeft].gallery;
 
-        left++;
-        right--;
+        let innerLeft = 0, innerRight = gallery.length - 1;
 
-        if(left === right){
-            if(list[left].latest) imageList.push(<EventImage img={list[left].img} />);
+        while(innerLeft < innerRight){
+            if(gallery[innerLeft].latest) imageList.push(<EventImage img={gallery[innerLeft].img} />);
+            if(gallery[innerRight].latest) imageList.push(<EventImage img={gallery[innerRight].img} />);
+
+            innerLeft++;
+            innerRight--;
+
+            if(innerLeft === innerRight){
+                if(gallery[innerLeft].latest) imageList.push(<EventImage img={gallery[innerLeft].img} />);
+            }
+        }
+
+        // Right Side
+        gallery = list[outerRight].gallery;
+
+        innerLeft = 0;
+        innerRight = gallery.length - 1;
+
+        while(innerLeft < innerRight){
+            if(gallery[innerLeft].latest) imageList.push(<EventImage img={gallery[innerLeft].img} />);
+            if(gallery[innerRight].latest) imageList.push(<EventImage img={gallery[innerRight].img} />);
+
+            innerLeft++;
+            innerRight--;
+
+            if(innerLeft === innerRight){
+                if(gallery[innerLeft].latest) imageList.push(<EventImage img={gallery[innerLeft].img} />);
+            }
+        }
+
+        outerLeft++;
+        outerRight--;
+
+        if(outerLeft === outerRight){
+            gallery = list[outerLeft].gallery;
+
+            innerLeft = 0;
+            innerRight = gallery.length - 1;
+
+            while(innerLeft < innerRight){
+                if(gallery[innerLeft].latest) imageList.push(<EventImage img={gallery[innerLeft].img} />);
+                if(gallery[innerRight].latest) imageList.push(<EventImage img={gallery[innerRight].img} />);
+
+                innerLeft++;
+                innerRight--;
+
+                if(innerLeft === innerRight){
+                    if(gallery[innerLeft].latest) imageList.push(<EventImage img={gallery[innerLeft].img} />);
+                }
+            }
         }
     }
 
