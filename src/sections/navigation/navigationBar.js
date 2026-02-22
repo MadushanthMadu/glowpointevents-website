@@ -32,7 +32,9 @@ const pages = [
     }
 ];
 
-function NavigationBar() {
+function NavigationBar({
+    inverse=false
+}) {
     const theme = useTheme();
     const {t} = useTranslation();
 
@@ -81,7 +83,7 @@ function NavigationBar() {
             position="fixed"
             elevation={0}
             sx={{
-                backgroundColor: trigger ? theme.palette.background.default : 'transparent',
+                backgroundColor: trigger || inverse ? theme.palette.background.default : 'transparent',
                 py: {xs: '12px', md: '7.5px' }
             }}
             className='main-section-px'
@@ -92,7 +94,7 @@ function NavigationBar() {
             >
                 <Toolbar disableGutters>
                     {/* Logo - PC and Tab View */}
-                    <Logo trigger={trigger}/>
+                    <Logo trigger={trigger || inverse}/>
 
                     {/* Navigation Options - Mobile View */}
                     <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -110,13 +112,13 @@ function NavigationBar() {
                                 }}
                             >
                                 <img 
-                                    src={trigger ? '/images/Logo/GE-T-G.png' : '/images/Logo/GE-W-G.png'}
+                                    src={trigger || inverse ? '/images/Logo/GE-T-G.png' : '/images/Logo/GE-W-G.png'}
                                     alt='Logo' 
                                     width='100%' 
                                 />
                             </Box>
 
-                            <MenuIcon sx={{color: trigger ? theme.palette.text.primary : theme.palette.background.default}}/>
+                            <MenuIcon sx={{color: trigger || inverse ? theme.palette.text.primary : theme.palette.background.default}}/>
                         </IconButton>
 
                         <Drawer
@@ -198,10 +200,10 @@ function NavigationBar() {
                             spacing='48px'
                             sx={{
                                 backgroundColor: alpha(theme.palette.background.default, 0.2),
-                                boxShadow: trigger ? 'none' : '0 4px 30px rgba(0, 0, 0, 0.1)',
-                                backdropFilter: trigger ? 'none' : 'blur(5px)',
-                                WebkitBackdropFilter: trigger ? 'none' : 'blur(5px)',
-                                py: trigger ? 0 : '12px',
+                                boxShadow: trigger || inverse ? 'none' : '0 4px 30px rgba(0, 0, 0, 0.1)',
+                                backdropFilter: trigger || inverse ? 'none' : 'blur(5px)',
+                                WebkitBackdropFilter: trigger || inverse ? 'none' : 'blur(5px)',
+                                py: trigger || inverse ? 0 : '12px',
                                 px: '24px',
                                 borderRadius: '100px'
                             }}
@@ -213,7 +215,7 @@ function NavigationBar() {
                                         onClick={() => selectAPage(page.to)}
                                         sx={{ 
                                             textTransform: 'none',
-                                            color: trigger ? theme.palette.text.primary : theme.palette.primary.contrastText, 
+                                            color: trigger || inverse ? theme.palette.text.primary : theme.palette.primary.contrastText, 
                                             display: 'block',
                                             fontSize: selectedPageIndex === page.id ? '18px' : '16px',
                                             fontWeight: selectedPageIndex === page.id ? 700 : 400,
@@ -238,8 +240,8 @@ function NavigationBar() {
                             onClick={() => navigate('/contact-us')}
                             endIcon={<ArrowOutwardIcon />}
                             sx={{
-                                backgroundColor: trigger ? theme.palette.primary.main : theme.palette.background.default,
-                                color: trigger ? theme.palette.primary.contrastText : theme.palette.primary.main,
+                                backgroundColor: trigger || inverse ? theme.palette.primary.main : theme.palette.background.default,
+                                color: trigger || inverse ? theme.palette.primary.contrastText : theme.palette.primary.main,
                                 fontWeight: 600,
                                 py: '8px'
                             }}

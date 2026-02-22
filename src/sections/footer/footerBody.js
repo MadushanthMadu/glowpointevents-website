@@ -36,7 +36,7 @@ const getEventsList = () => {
 }
 
 const socialMediaList = [
-    {name: "Email", icon: "/images/Contact/mail.png", link: generalData.social.email},
+    {name: "Email", icon: "/images/Contact/mail.png", link: `mailto:${generalData.social.email}`},
     {name: "Whatsapp", icon: "/images/Contact/whatsapp.png", link: generalData.social.whatsapp},
     {name: "Instagram", icon: "/images/Contact/instagram.png", link: generalData.social.instagram},
     {name: "Facebook", icon: "/images/Contact/facebook.png", link: generalData.social.facebook},

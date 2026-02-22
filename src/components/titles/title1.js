@@ -36,7 +36,7 @@ const Title1 = ({
                             key={index}
                             title={wording}
                             needHighlight={index + 1 === highLightedTextPosition}
-                            showShinyEffect
+                            showShinyEffect={showShinyEffect}
                         />
                     })
                     :

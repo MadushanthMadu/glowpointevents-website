@@ -1,5 +1,66 @@
 {
     "title": "Terms and Conditions",
-    "updated": "26 September 2025",
-    "body": []
+    "updated": "Last Updated: 22nd February 2026",
+    "content": [
+        {
+            "title": "",
+            "description": "These Terms and Conditions govern the provision of services by Glowpoint Events. By engaging our event management services, submitting an enquiry, or entering into a booking agreement, you agree to be bound by these Terms. Please read them carefully before confirming your event booking."
+        },
+        {
+            "title": "Services",
+            "description": "Glowpoint Events provides event planning, coordination, styling, and management services for weddings, private celebrations, corporate functions, and cultural events across Australia. The scope of services will be outlined in your individual proposal or service agreement."
+        },
+        {
+            "title": "Bookings and Deposits",
+            "description": "A booking is confirmed only upon receipt of a signed agreement and a non-refundable deposit as specified in your proposal. The deposit secures your event date and covers initial planning and coordination services."
+        },
+        {
+            "title": "Payments",
+            "description": "Payment schedules will be detailed in your service agreement. All payments must be made by the due dates specified. Failure to make payments on time may result in suspension or cancellation of services. Final payment must be received prior to the event date unless otherwise agreed in writing."
+        },
+        {
+            "title": "Cancellations and Refunds",
+            "description": "If you choose to cancel your event, written notice must be provided. Deposits are non-refundable. Additional cancellation fees may apply depending on the stage of planning and commitments made to suppliers. Any refunds are subject to contractual obligations with third-party vendors."
+        },
+        {
+            "title": "Changes to Event Details",
+            "description": "Any changes to event details, including date, venue, guest count, or service scope, must be communicated in writing. Glowpoint Events will make reasonable efforts to accommodate changes; however, additional fees may apply depending on the nature and timing of the request."
+        },
+        {
+            "title": "Client Responsibilities",
+            "description": "Clients are responsible for providing accurate information, timely approvals, and necessary documentation required for event planning. Delays in providing required information may impact timelines, availability, or costs."
+        },
+        {
+            "title": "Third-Party Suppliers",
+            "description": "Glowpoint Events may engage or recommend third-party vendors such as caterers, venues, decorators, photographers, and entertainers. While we coordinate and liaise with these providers, we are not liable for the performance, acts, or omissions of independent third-party suppliers."
+        },
+        {
+            "title": "Liability",
+            "description": "Glowpoint Events will exercise reasonable care and professionalism in delivering services. To the extent permitted by Australian law, we are not liable for indirect, incidental, or consequential loss arising from circumstances beyond our reasonable control, including weather conditions, supplier failures, or unforeseen events."
+        },
+        {
+            "title": "Force Majeure",
+            "description": "Glowpoint Events shall not be held responsible for delays, cancellations, or changes caused by events beyond our reasonable control, including natural disasters, government restrictions, public health emergencies, or other unforeseen circumstances."
+        },
+        {
+            "title": "Intellectual Property",
+            "description": "All event concepts, styling designs, proposals, and creative materials developed by Glowpoint Events remain our intellectual property unless otherwise agreed in writing. Clients may not reproduce or distribute our materials without prior consent."
+        },
+        {
+            "title": "Photography and Marketing",
+            "description": "Glowpoint Events may use photographs or videos of completed events for portfolio, website, or marketing purposes unless the client provides written notice requesting confidentiality prior to the event."
+        },
+        {
+            "title": "Governing Law",
+            "description": "These Terms and Conditions are governed by the laws of Australia. Any disputes arising in connection with our services shall be subject to the jurisdiction of the appropriate courts within Australia."
+        },
+        {
+            "title": "Amendments",
+            "description": "Glowpoint Events reserves the right to update or modify these Terms and Conditions at any time. The most current version will be published on our website with the effective date."
+        },
+        {
+            "title": "Contact Information",
+            "description": "For questions regarding these Terms and Conditions, please contact Glowpoint Events through the details provided on our Contact page."
+        }
+    ]
 }

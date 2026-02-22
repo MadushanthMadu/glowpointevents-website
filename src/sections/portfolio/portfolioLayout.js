@@ -1,9 +1,12 @@
 import NavigationBar from "../navigation/navigationBar";
+import FooterLayout from '../footer/footerLayout';
 
 const PortfolioLayout = () => {
     return (
         <>
-            <NavigationBar />
+            <NavigationBar inverse/>
+
+            <FooterLayout />
         </>
     );
 }

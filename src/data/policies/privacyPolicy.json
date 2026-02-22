@@ -1,5 +1,58 @@
 {
-    "title": "Privacy Policy",
-    "updated": "26 September 2025",
-    "body": []
+    "title": "Our Privacy Policy",
+    "updated": "Last Updated: 22nd February 2026",
+    "content": [
+        {
+            "title": "",
+            "description": "At Glowpoint Events, we are committed to protecting your privacy and safeguarding your personal information in accordance with the Australian Privacy Principles under the Privacy Act 1988 (Cth). This Privacy Policy explains how we collect, use, disclose, and protect your information when you visit our website, make an enquiry, or engage our event management services. By interacting with our services, you agree to the terms outlined in this policy."
+        },
+        {
+            "title": "Information We Collect",
+            "description": "We may collect personal information such as your name, email address, phone number, event details, billing information, and any additional information you voluntarily provide during consultations or enquiries. We may also collect non-personal information including browser type, IP address, device information, and website usage data to improve our services and user experience."
+        },
+        {
+            "title": "How We Use Your Information",
+            "description": "Your information is used to respond to enquiries, plan and manage events, process payments, communicate important updates, and enhance our services. We may also use your information to send relevant updates about our offerings, promotions, or event-related services where permitted by law. You may opt out of marketing communications at any time."
+        },
+        {
+            "title": "Sharing and Disclosure of Information",
+            "description": "Glowpoint Events does not sell or rent your personal information. We may share necessary information with trusted suppliers, venues, stylists, caterers, and service providers involved in delivering your event. All third parties are expected to handle your information responsibly and only for the purposes required to deliver agreed services. We may also disclose information where required by Australian law."
+        },
+        {
+            "title": "Cookies and Website Analytics",
+            "description": "Our website may use cookies and analytics tools to improve functionality, monitor performance, and enhance user experience. Cookies help us understand visitor behaviour and tailor content accordingly. You can manage or disable cookies through your browser settings; however, this may affect certain website features."
+        },
+        {
+            "title": "Data Security",
+            "description": "We implement reasonable technical and organisational measures to protect your personal information from unauthorised access, misuse, loss, or disclosure. While we take appropriate precautions, no online transmission or storage system can be guaranteed as completely secure."
+        },
+        {
+            "title": "Data Retention",
+            "description": "We retain personal information only for as long as necessary to provide our services, fulfil contractual obligations, comply with legal requirements, and resolve disputes. When information is no longer required, it is securely deleted or de-identified."
+        },
+        {
+            "title": "Your Rights",
+            "description": "Under Australian privacy law, you may have the right to access the personal information we hold about you and request corrections if necessary. If you wish to access or update your information, please contact us using the details provided below. We will respond within a reasonable timeframe."
+        },
+        {
+            "title": "Third-Party Links",
+            "description": "Our website may contain links to external websites, including venues, partners, or social media platforms. We are not responsible for the privacy practices of these third-party websites and encourage you to review their policies before providing personal information."
+        },
+        {
+            "title": "Children’s Privacy",
+            "description": "Glowpoint Events does not knowingly collect personal information from children without parental or guardian consent. Where event services involve minors, information is collected only from parents or legal guardians for event planning purposes."
+        },
+        {
+            "title": "International Data Transfers",
+            "description": "If you engage our services from outside Australia, your information may be processed and stored in Australia. By using our services, you consent to this transfer and processing in accordance with this Privacy Policy."
+        },
+        {
+            "title": "Changes to This Privacy Policy",
+            "description": "Glowpoint Events reserves the right to update this Privacy Policy from time to time. Any changes will be published on this page with an updated effective date. We encourage you to review this policy periodically to remain informed."
+        },
+        {
+            "title": "Contact Us",
+            "description": "If you have any questions or concerns regarding this Privacy Policy or how we handle your personal information, please contact Glowpoint Events via our website enquiry form or email address listed on our Contact page."
+        }
+    ]
 }

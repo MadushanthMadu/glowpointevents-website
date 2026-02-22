@@ -1,11 +1,15 @@
 import { useTranslation } from "react-i18next";
+import NavigationBar from "../navigation/navigationBar";
+import FooterLayout from '../footer/footerLayout';
 
 const NotFoundLayout = () => {
     const {t} = useTranslation();
 
     return (
         <>
-            <h1>{t('notFound.description')}</h1>
+            <NavigationBar inverse/>
+
+            <FooterLayout />
         </>
     );
 }

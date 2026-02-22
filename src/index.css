@@ -49,6 +49,10 @@ body {
     padding-top: var(--section-vertical-spacing-sm);
     padding-bottom: var(--section-vertical-spacing-sm);
   }
+
+  .navigation-section-spacing {
+    padding-top: 110px;
+  }
 }
 
 /* Medium devices (landscape tablets, 900px and up) */
@@ -70,6 +74,10 @@ body {
     padding-top: var(--section-vertical-spacing-md);
     padding-bottom: var(--section-vertical-spacing-md);
   }
+
+  .navigation-section-spacing {
+    padding-top: 130px;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -90,5 +98,9 @@ body {
   .main-section-py {
     padding-top: var(--section-vertical-spacing-lg);
     padding-bottom: var(--section-vertical-spacing-lg);
+  }
+
+  .navigation-section-spacing {
+    padding-top: 150px;
   }
 }
